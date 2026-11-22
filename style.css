@@ -43,6 +43,7 @@ nav {
   margin-bottom: 2rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--border);
+  align-items: center;
 }
 
 nav a {
@@ -91,4 +92,19 @@ hr {
   margin: 2.5rem 0;
   border: 0;
   border-top: 1px solid var(--border);
+}
+
+nav a.nav-logo-link {
+  padding: 0;
+  border: none;
+  background: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: block;
 }
